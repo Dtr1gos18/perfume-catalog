@@ -1,0 +1,34 @@
+---
+---
+
+<!--
+  Botón flotante "volver arriba". Aparece al bajar (ver scripts/back-to-top.ts).
+  Mientras está oculto lleva `inert` para que no reciba foco ni lo lean los lectores de pantalla.
+-->
+<button
+  type="button"
+  data-back-to-top
+  data-visible="false"
+  inert
+  aria-label="Volver al inicio"
+  class="fixed right-4 bottom-4 z-40 flex size-12 translate-y-3 cursor-pointer items-center justify-center rounded-full border-2 border-ink bg-accent text-white opacity-0 shadow-hard-sm transition-[opacity,translate,box-shadow,background-color] duration-200 hover:bg-ink hover:shadow-none data-[visible=true]:translate-y-0 data-[visible=true]:opacity-100 motion-reduce:transition-none sm:right-6 sm:bottom-6"
+>
+  <svg
+    aria-hidden="true"
+    width="22"
+    height="22"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2.6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M12 19V5"></path>
+    <path d="M5 12l7-7 7 7"></path>
+  </svg>
+</button>
+
+<script>
+  import '../scripts/back-to-top';
+</script>

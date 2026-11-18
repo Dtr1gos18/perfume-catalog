@@ -1,0 +1,15 @@
+---
+interface Props {
+  level: number;
+  max?: number;
+}
+
+const { level, max = 5 } = Astro.props;
+const bars = Array.from({ length: max }, (_, i) => i < level);
+---
+
+<div role="img" aria-label={`Intensidad ${level} de ${max}`} class="flex gap-1">
+  {bars.map((filled) => (
+    <span class:list={['h-2 w-6 rounded-sm', filled ? 'bg-accent' : 'bg-blush-deep']} />
+  ))}
+</div>

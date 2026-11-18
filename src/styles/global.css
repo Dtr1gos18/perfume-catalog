@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+/* Fuentes autoalojadas (sin peticiones a Google Fonts) */
+@import '@fontsource/fraunces/latin-400.css';
+@import '@fontsource/fraunces/latin-400-italic.css';
+@import '@fontsource/fraunces/latin-600.css';
+@import '@fontsource/space-grotesk/latin-400.css';
+@import '@fontsource/space-grotesk/latin-500.css';
+@import '@fontsource/space-grotesk/latin-700.css';
+
+/* Tokens de diseño extraídos del mockup */
+@theme {
+  --font-sans: 'Space Grotesk', system-ui, sans-serif;
+  --font-serif: 'Fraunces', Georgia, serif;
+
+  --color-ink: #111111;
+  --color-accent: #c2185b;
+  --color-gold: #b8893a;
+  --color-blush: #fdeff4;
+  --color-blush-deep: #f3d3de;
+  --color-muted: #4a4a58;
+  --color-subtle: #5a5a68;
+
+  /* Sombras "duras" neobrutalistas */
+  --shadow-hard-sm: 3px 3px 0 var(--color-ink);
+  --shadow-hard-md: 6px 6px 0 var(--color-ink);
+  --shadow-hard-lg: 8px 8px 0 var(--color-ink);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-white font-sans text-base leading-relaxed text-ink;
+  }
+
+  a {
+    @apply text-ink transition-colors hover:text-accent;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+}

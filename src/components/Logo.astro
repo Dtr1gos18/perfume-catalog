@@ -1,0 +1,25 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/logo.jpg';
+
+interface Props {
+  /** Alto en px; el ancho se calcula con la proporción 2:1 del logo. */
+  height: number;
+  eager?: boolean;
+  class?: string;
+}
+
+const { height, eager = false, class: className } = Astro.props;
+---
+
+<Image
+  src={logo}
+  alt="Diamantes Perfumería"
+  width={height * 2}
+  height={height}
+  densities={[1, 2]}
+  loading={eager ? 'eager' : 'lazy'}
+  decoding="async"
+  class:list={['block h-auto w-auto', className]}
+  style={`height:${height}px`}
+/>

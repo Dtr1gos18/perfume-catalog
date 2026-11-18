@@ -1,0 +1,16 @@
+---
+import { GENDER_FILTERS } from '../lib/filter';
+---
+
+<div role="group" aria-label="Filtrar por género" class="flex flex-wrap gap-2.5">
+  {GENDER_FILTERS.map((label) => (
+    <button
+      type="button"
+      data-gender={label}
+      aria-pressed={label === 'Todos' ? 'true' : 'false'}
+      class="min-h-[46px] cursor-pointer rounded-full border-2 border-ink bg-white px-[22px] text-[15px] font-bold shadow-hard-sm transition-shadow aria-pressed:bg-ink aria-pressed:text-white aria-pressed:shadow-none"
+    >
+      {label}
+    </button>
+  ))}
+</div>

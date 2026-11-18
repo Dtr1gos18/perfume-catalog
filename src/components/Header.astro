@@ -1,0 +1,28 @@
+---
+import Logo from './Logo.astro';
+
+const links = [
+  { href: '#catalogo', label: 'Catálogo' },
+  { href: '#visitanos', label: 'Visítanos' },
+];
+---
+
+<header id="inicio" tabindex="-1" class="border-b-2 border-ink bg-white outline-none">
+  <nav
+    aria-label="Principal"
+    class="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-4 px-5 py-3.5 sm:px-8"
+  >
+    <a href="#catalogo" class="block" aria-label="Diamantes Perfumería, ir al catálogo">
+      <Logo height={84} eager />
+    </a>
+    <ul class="flex flex-wrap gap-7 font-medium">
+      {links.map((link) => (
+        <li>
+          <a href={link.href} class="no-underline">
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</header>

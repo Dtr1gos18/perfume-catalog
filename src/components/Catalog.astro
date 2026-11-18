@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import { formatCount } from '../lib/filter';
+import GenderFilter from './GenderFilter.astro';
+import ProductRow from './ProductRow.astro';
+import SearchBar from './SearchBar.astro';
+
+const perfumes = (await getCollection('perfumes')).sort((a, b) =>
+  a.id.localeCompare(b.id, 'es', { numeric: true }),
+);
+---
+
+<section
+  id="catalogo"
+  data-catalog
+  aria-labelledby="catalogo-titulo"
+  class="mx-auto max-w-[1240px] px-5 pt-14 pb-24 sm:px-8"
+>
+  <h2
+    id="catalogo-titulo"
+    class="mb-7 font-serif text-[clamp(2.25rem,6vw,3.25rem)] leading-[1.05] font-normal"
+  >
+    Nuestras fragancias
+  </h2>
+
+  <div class="mb-3.5 flex flex-wrap items-center gap-x-5 gap-y-4">
+    <SearchBar />
+    <GenderFilter />
+  </div>
+
+  <p data-count aria-live="polite" class="mb-6 font-bold text-muted">
+    {formatCount(perfumes.length)}
+  </p>
+
+  <div data-list class="overflow-hidden rounded-3xl border-2 border-ink bg-white shadow-hard-md">
+    <!-- El margen negativo oculta el borde inferior de la última fila visible -->
+    <div class="-mb-0.5">
+      {perfumes.map((perfume) => (
+        <ProductRow perfume={perfume} />
+      ))}
+    </div>
+  </div>
+
+  <p data-empty hidden class="mt-10 text-center text-[19px] font-bold">
+    No encontramos perfumes con “<span data-empty-query></span>”. Revisa el código o prueba otro
+    nombre.
+  </p>
+</section>
+
+<script>
+  import '../scripts/catalog-filter';
+</script>

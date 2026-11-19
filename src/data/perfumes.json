@@ -215,7 +215,8 @@
     "name": "Winner Sport",
     "gender": "Hombre",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Salida cítrica y fresca, con un cuerpo especiado y floral y un fondo amaderado."
   },
   {
     "id": "102",
@@ -674,7 +675,8 @@
     "gender": "Hombre",
     "family": "Amaderada",
     "concentration": "EDP",
-    "sources": ["https://www.yanbal.com/co/corporate/p/20012785/temptation-eau-de-parfum"]
+    "sources": ["https://www.yanbal.com/co/corporate/p/20012785/temptation-eau-de-parfum"],
+    "description": "Herbal y amaderada, impactante y seductora: combina hojas de menta, un toque dulce de néctar de mandarina y madera de sándalo."
   },
   {
     "id": "305",
@@ -935,7 +937,12 @@
       "https://www.escentual.com/chvipmen001/",
       "https://scentadvice.com/212-vip-men-party-fever-2018-carolina-herrera/",
       "https://www.decantx.com/products/carolina-herrera-212-vip-men-party-fever-eau-de-toilette-for-men"
-    ]
+    ],
+    "notes": {
+      "top": "Manzana roja, cítricos, jengibre, bayas de enebro, tamarindo",
+      "heart": "Cannabis, geranio, fresia",
+      "base": "Haba tonka, cedro, almizcle, vetiver, incienso"
+    }
   },
   {
     "id": "408",
@@ -1183,7 +1190,7 @@
   },
   {
     "id": "424",
-    "name": "Bhara King",
+    "name": "Bharara King",
     "gender": "Hombre",
     "concentration": "EDP",
     "notes": {
@@ -1251,7 +1258,8 @@
     "name": "Atelier Versace Bois",
     "gender": "Hombre",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Protagonizada por el sándalo de Sri Lanka, de perfil cremoso, lácteo y balsámico; corazón y fondo de gurjun ambarado, azafrán y cipriol, con matices cálidos, ahumados y amaderados."
   },
   {
     "id": "429",
@@ -1265,7 +1273,12 @@
     "name": "Cristiano Men",
     "gender": "Hombre",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "notes": {
+      "top": "Lavanda, cardamomo, bergamota, abrótano",
+      "heart": "Tabaco, canela, cedro, iris",
+      "base": "Vainilla, almizcle, sándalo, ámbar"
+    }
   },
   {
     "id": "431",
@@ -1501,10 +1514,15 @@
   },
   {
     "id": "446",
-    "name": "Alicarpos Nuevo",
+    "name": "Ahli Karpos",
     "gender": "Hombre",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "notes": {
+      "top": "Mango, lima ácida, jengibre, frutos rojos",
+      "heart": "Notas amaderadas, cumarina, jazmín",
+      "base": "Almizcle, oud, ámbar, cipriol"
+    }
   },
   {
     "id": "447",

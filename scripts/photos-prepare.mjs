@@ -1,13 +1,15 @@
 // Uso: npm run photos:prepare -- <carpeta-con-fotos> [--force]
 //
 // Toma fotos tomadas con el celular, nombradas por código (104.jpg, 001.png, ...),
-// las normaliza a 800x800 sobre fondo blanco y las guarda en src/assets/perfumes/<codigo>.jpg.
+// las recorta, centra y normaliza a 800x800 sobre fondo blanco y las guarda en src/assets/perfumes/<codigo>.jpg.
 // Así el repositorio no se llena de fotos de varios MB.
 import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 
 const SIZE = 800;
+// Margen blanco alrededor del producto tras recortar el fondo sobrante.
+const MARGIN = 24;
 const root = path.resolve(import.meta.dirname, '..');
 const outDir = path.join(root, 'src/assets/perfumes');
 const args = process.argv.slice(2);
@@ -40,8 +42,17 @@ for (const file of files) {
   try {
     await sharp(path.join(inputDir, file))
       .rotate() // respeta la orientación EXIF del celular
-      .resize(SIZE, SIZE, { fit: 'contain', background: '#ffffff' })
       .flatten({ background: '#ffffff' })
+      .trim({ threshold: 25 }) // quita el fondo sobrante para que el frasco llene la card
+      .resize(SIZE - MARGIN * 2, SIZE - MARGIN * 2, { fit: 'inside' })
+      .extend({
+        top: MARGIN,
+        bottom: MARGIN,
+        left: MARGIN,
+        right: MARGIN,
+        background: '#ffffff',
+      })
+      .resize(SIZE, SIZE, { fit: 'contain', background: '#ffffff' })
       .jpeg({ quality: 82, mozjpeg: true })
       .toFile(target);
     result.ok.push(code);

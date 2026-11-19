@@ -286,7 +286,7 @@
   {
     "id": "106",
     "name": "Diesel Plus",
-    "gender": "Mujer",
+    "gender": "Hombre",
     "concentration": "EDT",
     "notes": {
       "top": "Bergamota, naranja, hoja de palma, heliotropo",
@@ -1266,7 +1266,8 @@
     "name": "Versace Vainilla",
     "gender": "Hombre",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Sándalo de Sri Lanka como protagonista, con un perfil cremoso, lácteo y balsámico; gurjun ambarado, azafrán y cypriol aportan matices cálidos, ahumados y ligeramente amaderados tipo oud."
   },
   {
     "id": "430",
@@ -1434,7 +1435,8 @@
     "name": "L.12.12 Essential",
     "gender": "Hombre",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Cítrica, verde y amaderada, con notas frescas y especias suaves."
   },
   {
     "id": "441",
@@ -1572,14 +1574,20 @@
     "name": "Jean Paul Gaultier",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Floral oriental, con rosa, flor de azahar, vainilla y ámbar."
   },
   {
     "id": "504",
     "name": "Ary",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "notes": {
+      "top": "Frambuesa, pera, toronja",
+      "heart": "Orquídea de vainilla, rosa, lirio de los valles",
+      "base": "Malvavisco, almizcle, notas amaderadas"
+    }
   },
   {
     "id": "506",
@@ -1642,14 +1650,20 @@
     "name": "Cory Yanbal",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "notes": {
+      "top": "Peonía blanca",
+      "heart": "Violeta",
+      "base": "Haba tonka"
+    }
   },
   {
     "id": "511",
     "name": "Celos",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Con incienso (toque misterioso y ahumado), miel (faceta dulce y amielada) y orquídea negra (carácter floral, elegante y sofisticado)."
   },
   {
     "id": "512",
@@ -1669,7 +1683,8 @@
     "name": "Pink Chiffon",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Dulce y floral, con frutos rojos, peonía, vainilla y almizcle; suave y femenina."
   },
   {
     "id": "514",
@@ -1681,7 +1696,8 @@
       "https://www.falabella.com.pe/falabella-pe/product/125249702/adrenaline-eau-de-toilette-yanbal-mujer-2-5fl-oz/125249703",
       "https://www.yanbal.com/bo/corporate/p/20012404/adrenaline-eau-de-toilette-hombre",
       "https://www.parfumo.com/Perfumes/Yanbal/Adrenaline"
-    ]
+    ],
+    "description": "Fresca, frutal y aromática, con carácter juvenil y energético."
   },
   {
     "id": "515",
@@ -1783,21 +1799,24 @@
       "https://scentverdict.com/perfume/sofia-vergara-sofia-eau-de-parfum",
       "https://perfumania.com/products/sofia-by-sofia-vergara-for-women-eau-de-parfum-spray",
       "https://prnewswire.com/news-releases/sofia-vergara-launches-her-premiere-fragrance-for-women-on-hsn-251916001.html"
-    ]
+    ],
+    "description": "Floral frutal, con ciruela, grosella, orquídea, rosa, vainilla y sándalo; dulce y elegante."
   },
   {
     "id": "606",
     "name": "Swiss Army Women",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Fresca, cítrica y herbal, con notas verdes, flores suaves y maderas; limpia y natural."
   },
   {
     "id": "607",
     "name": "Give Love",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Vainilla y arándano rojo, con matices de albaricoque, clavo, flores blancas, ámbar y acordes amaderados."
   },
   {
     "id": "608",
@@ -1809,7 +1828,8 @@
       "https://simple.ripley.com.pe/osadia-perfume-de-mujer-yanbal-pmp20001462890",
       "https://www.mercadolibre.com.pe/shorts/clips/CXaYor/perfume-osadia-mujer-edp-yanbal-50ml",
       "https://bellaviacanada.ca/products/yanbal-osadia-eau-de-parfum-for-women-aromatic-fruity-scent.oembed"
-    ]
+    ],
+    "description": "Fragancia femenina de carácter dulce y floral, con matices frutales."
   },
   {
     "id": "609",
@@ -1858,7 +1878,8 @@
       "https://nearstore.com/products/fxp41610",
       "https://www.fragrancex.com/products/fred-hayman/273-perfume",
       "https://www.perfume.com/fred-hayman/273-red/women-perfume"
-    ]
+    ],
+    "description": "Floral frutal, con notas cítricas, flores blancas y fondo amaderado."
   },
   {
     "id": "612",
@@ -1896,7 +1917,8 @@
     "name": "Noches Encantadas",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Combina coco escarchado, ámbar reluciente y magnolia nocturna; una mezcla cremosa, floral y almizclada que deja un fondo cálido de madera y sándalo."
   },
   {
     "id": "615",
@@ -1942,7 +1964,8 @@
     "sources": [
       "https://www.mercadolibre.com.co/shorts/clips/xKFAXD/temptation-eau-parfum-mujer-yanbal-50m",
       "https://www.mercadolibre.com.co/shorts/clips/D2R8Vg/temptation-ediciones-especiales-eau-parfum-mujer-yanbal-50ml"
-    ]
+    ],
+    "description": "Floral especiado, con rosa búlgara, gardenia y clavo de olor. Concentración alta: perdura entre 6 y 10 horas en la piel."
   },
   {
     "id": "703",
@@ -1954,21 +1977,24 @@
       "https://www.parfumo.com/Perfumes/Victoria_s_Secret/Bombshell_Eau_de_Parfum",
       "https://www.victoriassecretbeauty.com.my/fine-fragrance-bombshell-eau-de-parfum-26265788.html",
       "https://www.notino.co.uk/victorias-secret/bombshell-eau-de-parfum-for-women/p-84839/"
-    ]
+    ],
+    "description": "Frutal y floral, con maracuyá, peonía y orquídea de vainilla."
   },
   {
     "id": "704",
     "name": "Shakira",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Floral frutal, con notas dulces, cítricas y almizcladas."
   },
   {
     "id": "705",
     "name": "Coconut",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Aroma cremoso y tropical a coco, dulce y suave; puede incluir matices de vainilla."
   },
   {
     "id": "706",
@@ -2092,35 +2118,44 @@
     "name": "Vanilla – Victoria's Secret",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Dulce, cremosa y cálida, con vainilla como nota protagonista; suave y envolvente."
   },
   {
     "id": "714",
     "name": "BFF – Kardashian",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "notes": {
+      "top": "Bayas silvestres, caimito, grosella roja",
+      "heart": "Rosa rosada, flor del peral, jazmín sambac",
+      "base": "Malvavisco, vainilla, almizcle, cedro"
+    }
   },
   {
     "id": "715",
     "name": "Coco Chanel",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Oriental especiada, con cítricos, rosa, jazmín, pachulí, vainilla y ámbar."
   },
   {
     "id": "801",
     "name": "360 – Perry Ellis",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Floral y cítrica, con mandarina, nenúfar, rosa, lavanda y almizcle; fresca y versátil."
   },
   {
     "id": "802",
     "name": "Amber Romance – Victoria's Secret",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Dulce y ambarada, con ámbar, vainilla, cereza y notas cálidas; acogedora y sensual."
   },
   {
     "id": "803",
@@ -2147,7 +2182,11 @@
     "concentration": "EDT",
     "sources": [
       "https://www.carolinaherrera.com/ww/en/p-fragrance/carolina-herrera-eau-de-toilette"
-    ]
+    ],
+    "notes": {
+      "top": "Bergamota, albaricoque, flor de azahar, notas verdes",
+      "heart": "Nardo, jazmín español, ylang-ylang, madreselva"
+    }
   },
   {
     "id": "805",
@@ -2187,14 +2226,20 @@
     "name": "Issey Miyake",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "notes": {
+      "top": "Flor de loto, agua de rosas, melón, fresia, ciclamen",
+      "heart": "Lirio de los valles, azucena, peonía de agua, clavel",
+      "base": "Maderas preciosas, sándalo, cedro, almizcle, ámbar"
+    }
   },
   {
     "id": "808",
     "name": "Juice Berry",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Frutal y dulce, con frutos rojos y bayas; juvenil y alegre."
   },
   {
     "id": "809",
@@ -2205,7 +2250,8 @@
     "sources": [
       "https://www.yanbal.com/ec/corporate/p/20013641/cielo-eau-de-parfum",
       "https://www.falabella.com.pe/falabella-pe/product/119528038/Cielo-Perfume-de-Mujer/119528039"
-    ]
+    ],
+    "description": "Floral y fresca, con acordes suaves y luminosos."
   },
   {
     "id": "810",
@@ -2216,7 +2262,8 @@
       "https://www.falabella.com.pe/falabella-pe/product/116329042/Yanbal-Gaia-Eau-de-Parfum-50-ml/116329043",
       "https://simple.ripley.com.pe/gaia-perfume-de-mujer-yanbal-pmp20001463037"
     ],
-    "family": "Floral"
+    "family": "Floral",
+    "description": "Floral, frutal y cálida, con matices dulces."
   },
   {
     "id": "811",
@@ -2243,14 +2290,16 @@
       "https://fragranceaffection.com/?p=509"
     ],
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Frutal y dulce, con ciruela roja y fresia; fresca, jugosa y femenina."
   },
   {
     "id": "813",
     "name": "Guess for Women",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Floral frutal, con fresa, durazno, magnolia, peonía, ámbar y almizcle; juvenil."
   },
   {
     "id": "814",
@@ -2274,7 +2323,8 @@
     "name": "Sandía – Victoria's Secret",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Frutal, fresca y jugosa, con aroma protagonista a sandía; dulce y veraniega."
   },
   {
     "id": "816",
@@ -2304,7 +2354,8 @@
       "https://www.perfume.com/orientica/orientica-velvet-gold/women-perfume",
       "https://scentverdict.com/perfume/orientica-velvet-gold-eau-de-parfum",
       "https://trb-cosmetics.com/products/orientica-premium-velvet-gold-floral-fragrance-for-women"
-    ]
+    ],
+    "description": "Ambarada, dulce y amaderada, con vainilla, ámbar, flores y maderas; cálida y envolvente."
   },
   {
     "id": "902",
@@ -2373,14 +2424,16 @@
     "name": "Arrurrú",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Combina una salida de notas cítricas delicadas con un corazón floral blanco puro y atalcado."
   },
   {
     "id": "907",
     "name": "Blue Baby",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Aroma suave y limpio, de carácter fresco y delicado."
   },
   {
     "id": "908",
@@ -2413,7 +2466,8 @@
     "name": "Nolita",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Fresca y floral frutal, con notas cítricas, flores suaves y almizcle."
   },
   {
     "id": "911",
@@ -2421,7 +2475,8 @@
     "gender": "Mujer",
     "intensity": 3,
     "intensityBasis": "estimada",
-    "concentration": "EDP"
+    "concentration": "EDP",
+    "description": "Salida frutal jugosa de durazno, bergamota y manzana, con un fondo cremoso de vainilla, almizcle y sándalo."
   },
   {
     "id": "912",
@@ -2445,14 +2500,16 @@
     "name": "Mango – Victoria's Secret",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Frutal y tropical, con mango dulce y matices jugosos; fresca y veraniega."
   },
   {
     "id": "914",
     "name": "Cory Lee Nueva",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Combina la elegancia floral de la rosa blanca con un acorde especiado de canela dulce, un toque gourmand de chocolate y un fondo cálido de vainilla."
   },
   {
     "id": "915",
@@ -2467,7 +2524,8 @@
     ],
     "intensity": 3,
     "intensityBasis": "resenas",
-    "concentration": "EDP"
+    "concentration": "EDP",
+    "description": "Floral y elegante, con rosa, peonía, lirio de los valles y maderas suaves; femenina."
   },
   {
     "id": "916",
@@ -2496,7 +2554,8 @@
       "https://www.fragrantica.com/perfume/Bharara/Rose-134909.html",
       "https://www.parfumo.com/Perfumes/bharara/rose",
       "https://www.perfume.com/bharara-beauty/bharara-rose/women-perfume"
-    ]
+    ],
+    "description": "Floral y dulce, con rosa y acordes frutales y ambarados."
   },
   {
     "id": "918",
@@ -2508,7 +2567,12 @@
       "https://lattafa.com/product/yara-moii/",
       "https://www.parfumo.com/Perfumes/Lattafa/yara-moi-eau-de-parfum",
       "https://www.scento.com/perfumes/yara-moi-lattafa"
-    ]
+    ],
+    "notes": {
+      "top": "Jazmín, melocotón",
+      "heart": "Caramelo, ámbar",
+      "base": "Pachulí, sándalo"
+    }
   },
   {
     "id": "919",
@@ -2549,7 +2613,8 @@
     "name": "Pink Chocolate Nueva",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Gourmand dulce, con matices de chocolate, vainilla y frutas."
   },
   {
     "id": "922",
@@ -2563,27 +2628,235 @@
     "name": "Dreamy Mood Nueva",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Aroma suave y dulce."
   },
   {
     "id": "924",
     "name": "Impériale Bloom Nueva",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "notes": {
+      "top": "Lichi, bergamota, nuez moscada",
+      "heart": "Rosa turca, peonía, vainilla",
+      "base": "Incienso, cachemira, cedro"
+    }
   },
   {
     "id": "925",
     "name": "Yara Rosada",
     "gender": "Mujer",
     "intensity": 3,
-    "intensityBasis": "estimada"
+    "intensityBasis": "estimada",
+    "description": "Dulce y floral frutal, con orquídea, heliotropo, frutas tropicales, vainilla y almizcle."
   },
   {
     "id": "926",
     "name": "Loco por Ti",
     "gender": "Mujer",
     "intensity": 3,
+    "intensityBasis": "estimada",
+    "notes": {
+      "top": "Fresa, grosellas negras",
+      "heart": "Peonía, jazmín rosa, azucena",
+      "base": "Pachulí, vainilla, almizcle, ámbar"
+    }
+  },
+  {
+    "id": "1001",
+    "name": "Emirates 2 – Dubai",
+    "gender": "Unisex",
+    "description": "Amaderada, especiada y ambarada. Abre con azafrán y especias cálidas; en el corazón destacan el oud y el sándalo, sobre un fondo de dátiles, pachulí y almizcle. Aroma intenso, cálido y elegante.",
+    "family": "Amaderada",
+    "notes": {
+      "top": "Azafrán, especias cálidas",
+      "heart": "Oud, sándalo",
+      "base": "Dátiles, pachulí, almizcle"
+    },
+    "intensity": 3,
     "intensityBasis": "estimada"
+  },
+  {
+    "id": "1002",
+    "name": "Emirates 3 – Sharjah",
+    "gender": "Unisex",
+    "description": "Floral y almizclada, con salida de bergamota y pera. Su corazón reúne flor de azahar, nardo, gardenia y jazmín; termina con almizcle blanco, raíz de iris y ámbar suave. Delicada y refinada.",
+    "family": "Floral",
+    "notes": {
+      "top": "Bergamota, pera",
+      "heart": "Flor de azahar, nardo, gardenia, jazmín",
+      "base": "Almizcle blanco, raíz de iris, ámbar"
+    },
+    "intensity": 3,
+    "intensityBasis": "estimada"
+  },
+  {
+    "id": "1003",
+    "name": "Emirates 5 – Umm Al Quwain",
+    "gender": "Unisex",
+    "description": "Verde, fresca y amaderada. Combina albahaca y bergamota al inicio, jazmín y acordes florales verdes en el corazón, con vetiver, almizcle blanco y madera ambarada en el fondo.",
+    "family": "Verde",
+    "notes": {
+      "top": "Albahaca, bergamota",
+      "heart": "Jazmín, acordes florales verdes",
+      "base": "Vetiver, almizcle blanco, madera ambarada"
+    },
+    "intensity": 3,
+    "intensityBasis": "estimada"
+  },
+  {
+    "id": "1004",
+    "name": "Emirates 7 – Fujairah",
+    "gender": "Unisex",
+    "description": "Acuática, floral y almizclada. Presenta un acorde marino y limón al inicio, flores blancas y ciclamen en el corazón, y un fondo suave de almizcle, ámbar y maderas. Fresca y limpia.",
+    "family": "Acuática",
+    "notes": {
+      "top": "Acorde marino, limón",
+      "heart": "Flores blancas, ciclamen",
+      "base": "Almizcle, ámbar, maderas"
+    },
+    "intensity": 3,
+    "intensityBasis": "estimada"
+  },
+  {
+    "id": "1005",
+    "name": "El Ganso – Bravo Monsieur",
+    "gender": "Unisex",
+    "description": "Aromática y amaderada, con pomelo, cardamomo, violeta e incienso en la salida. Su corazón combina iris, papiro, lavanda y geranio; el fondo reúne sándalo, madera de cachemira, almizcle y vainilla.",
+    "family": "Aromática",
+    "notes": {
+      "top": "Pomelo, cardamomo, violeta, incienso",
+      "heart": "Iris, papiro, lavanda, geranio",
+      "base": "Sándalo, madera de cachemira, almizcle, vainilla"
+    },
+    "concentration": "EDT",
+    "sources": [
+      "https://www.falabella.com.co/falabella-co/product/6626735/Perfume-El-Ganso-Bravo-Monsieur-Hombre-125-ml-EDT"
+    ]
+  },
+  {
+    "id": "1006",
+    "name": "1 Million Golden Oud – Rabanne",
+    "gender": "Unisex",
+    "description": "Amaderada, oriental y especiada, con azafrán, nuez moscada, pimienta negra y bergamota. En el corazón aparecen iris, pachulí, cedro y bálsamo de gurjum; termina con oud, cuero, sándalo y ládano.",
+    "family": "Amaderada",
+    "notes": {
+      "top": "Azafrán, nuez moscada, pimienta negra, bergamota",
+      "heart": "Iris, pachulí, cedro, bálsamo de gurjum",
+      "base": "Oud, cuero, sándalo, ládano"
+    },
+    "concentration": "EDP",
+    "sources": ["https://scentverdict.com/perfume/rabanne-1-million-golden-oud-eau-de-parfum"]
+  },
+  {
+    "id": "1007",
+    "name": "Layton – Parfums de Marly",
+    "gender": "Unisex",
+    "description": "Ambarada, aromática y especiada. Combina manzana, bergamota y cardamomo; en el corazón aparecen lavanda, violeta y geranio, sobre un fondo cálido de pachulí, vainilla, madera de guayaco y praliné.",
+    "family": "Ambarada",
+    "notes": {
+      "top": "Manzana, bergamota, cardamomo",
+      "heart": "Lavanda, violeta, geranio",
+      "base": "Pachulí, vainilla, madera de guayaco, praliné"
+    },
+    "concentration": "EDP"
+  },
+  {
+    "id": "1008",
+    "name": "Rehab – Initio",
+    "gender": "Unisex",
+    "description": "Amaderada y especiada, con bergamota y lavanda en la salida. Su composición incorpora cedro, pachulí y sándalo, acompañados de hediona y almizcle. Aroma limpio, suave y envolvente.",
+    "family": "Amaderada",
+    "intensity": 4,
+    "intensityBasis": "estimada"
+  },
+  {
+    "id": "1009",
+    "name": "Tilia – Marc-Antoine Barrois",
+    "gender": "Unisex",
+    "description": "Floral, luminosa y ligeramente dulce. Destacan flor de tilo, jazmín sambac y retama; el corazón combina flor de azahar, heliotropo y vetiver, con un fondo amaderado y almizclado de ambroxan y Georgywood.",
+    "family": "Floral",
+    "notes": {
+      "top": "Flor de tilo, jazmín sambac, retama",
+      "heart": "Flor de azahar, heliotropo, vetiver",
+      "base": "Ambroxan, Georgywood"
+    },
+    "concentration": "EDP",
+    "sources": [
+      "https://zgoperfumery.com/collections/marc-antoine-barrois/products/marc-antoine-barrois-tilia-eau-de-parfum"
+    ]
+  },
+  {
+    "id": "1010",
+    "name": "Chocolate Greedy – Montale",
+    "gender": "Unisex",
+    "description": "Gourmand, dulce y cálida. La naranja amarga aporta un toque cítrico al inicio; el cacao y la vainilla forman un corazón cremoso, mientras el café y la haba tonka dejan un fondo tostado y envolvente.",
+    "family": "Gourmand",
+    "notes": {
+      "top": "Naranja amarga",
+      "heart": "Cacao, vainilla",
+      "base": "Café, haba tonka"
+    },
+    "concentration": "EDP",
+    "sources": [
+      "https://www.venbafragrance.com/collections/all/products/montale-chocolate-greedy-edp"
+    ]
+  },
+  {
+    "id": "1011",
+    "name": "Atlas – Lattafa",
+    "gender": "Unisex",
+    "description": "Acuática, cítrica y amaderada. Abre con notas marinas, sal y limón; en el corazón aparecen davana e iris, y finaliza con ámbar gris, musgo de roble y sándalo. Fresca, salina y elegante.",
+    "family": "Acuática",
+    "notes": {
+      "top": "Notas marinas, sal, limón",
+      "heart": "Davana, iris",
+      "base": "Ámbar gris, musgo de roble, sándalo"
+    },
+    "concentration": "EDP",
+    "sources": ["https://scentverdict.com/perfume/lattafa-atlas-eau-de-parfum"]
+  },
+  {
+    "id": "1012",
+    "name": "Äican – Kajal",
+    "gender": "Unisex",
+    "description": "Frutal, especiada y cálida. Combina maracuyá, piña y mandarina; en el corazón destacan pimienta negra, jazmín y jengibre. Su fondo mezcla vainilla, pachulí, vetiver, praliné, ámbar, almizcle y sándalo.",
+    "family": "Frutal",
+    "notes": {
+      "top": "Maracuyá, piña, mandarina",
+      "heart": "Pimienta negra, jazmín, jengibre",
+      "base": "Vainilla, pachulí, vetiver, praliné, ámbar, almizcle, sándalo"
+    },
+    "intensity": 3,
+    "intensityBasis": "estimada"
+  },
+  {
+    "id": "1013",
+    "name": "Narcotic Delight – Initio",
+    "gender": "Unisex",
+    "description": "Ambarada, frutal y gourmand. Destacan cereza, pimienta rosa y pimienta negra, con un corazón de coñac, hediona y rosa. El fondo de tabaco, vainilla, haba tonka, cedro y pachulí aporta calidez e intensidad.",
+    "family": "Ambarada",
+    "notes": {
+      "top": "Cereza, pimienta rosa, pimienta negra",
+      "heart": "Coñac, hediona, rosa",
+      "base": "Tabaco, vainilla, haba tonka, cedro, pachulí"
+    },
+    "intensity": 4,
+    "intensityBasis": "estimada"
+  },
+  {
+    "id": "1014",
+    "name": "Emeer – Lattafa ",
+    "gender": "Unisex",
+    "description": "Cítrica, aromática y amaderada. Presenta limón, bergamota, bayas de enebro y salvia; en el corazón combina cardamomo, té blanco, sándalo e incienso, sobre un fondo de ámbar gris, cashmeran, pachulí y cedro.",
+    "family": "Cítrica",
+    "notes": {
+      "top": "Limón, bergamota, bayas de enebro, salvia",
+      "heart": "Cardamomo, té blanco, sándalo, incienso",
+      "base": "Ámbar gris, cashmeran, pachulí, cedro"
+    },
+    "concentration": "EDP",
+    "sources": ["https://scentverdict.com/perfume/lattafa-emeer-eau-de-parfum"]
   }
 ]

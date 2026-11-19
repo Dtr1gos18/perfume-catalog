@@ -41,7 +41,7 @@ const perfumes = defineCollection({
         .optional(),
       /**
        * Texto libre del catálogo Word original. Se muestra solo cuando el perfume
-       * no tiene `notes` por niveles (ver ProductRow.astro).
+       * no tiene `notes` por niveles (ver ProductCard.astro).
        */
       description: z.string().min(1).optional(),
       /** URLs de donde salen las notas / datos (trazabilidad). */

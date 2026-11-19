@@ -36,7 +36,7 @@ npm run dev      # http://localhost:4321
 ```text
 src/
 ├── assets/            logo y (más adelante) fotos de perfumes
-├── components/        Header, Catalog, ProductRow, VisitCard, …
+├── components/        Header, Catalog, ProductCard, VisitCard, …
 ├── config/site.ts     datos de la tienda (WhatsApp, dirección, horario…)
 ├── data/perfumes.json catálogo
 ├── lib/filter.ts      lógica pura de búsqueda/filtro (con tests)

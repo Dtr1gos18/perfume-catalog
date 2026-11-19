@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import { formatCount } from '../lib/filter';
 import GenderFilter from './GenderFilter.astro';
-import ProductRow from './ProductRow.astro';
+import ProductCard from './ProductCard.astro';
 import SearchBar from './SearchBar.astro';
 
 const perfumes = (await getCollection('perfumes')).sort((a, b) =>
@@ -32,13 +32,10 @@ const perfumes = (await getCollection('perfumes')).sort((a, b) =>
     {formatCount(perfumes.length)}
   </p>
 
-  <div data-list class="overflow-hidden rounded-3xl border-2 border-ink bg-white shadow-hard-md">
-    <!-- El margen negativo oculta el borde inferior de la última fila visible -->
-    <div class="-mb-0.5">
-      {perfumes.map((perfume) => (
-        <ProductRow perfume={perfume} />
-      ))}
-    </div>
+  <div data-list class="grid grid-cols-[repeat(auto-fill,minmax(min(100%,540px),1fr))] gap-6">
+    {perfumes.map((perfume) => (
+      <ProductCard perfume={perfume} />
+    ))}
   </div>
 
   <p data-empty hidden class="mt-10 text-center text-[19px] font-bold">

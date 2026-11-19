@@ -1,0 +1,127 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import BottlePlaceholder from './BottlePlaceholder.astro';
+import IntensityMeter from './IntensityMeter.astro';
+import { resolveIntensity } from '../lib/intensity';
+import { findPerfumeImage } from '../lib/perfume-images';
+
+interface Props {
+  perfume: CollectionEntry<'perfumes'>;
+}
+
+const { perfume } = Astro.props;
+const { id: code, data } = perfume;
+const { name, family, gender, notes, concentration, bottle } = data;
+const intensity = resolveIntensity(data.intensity, concentration);
+// Etiqueta bajo la barra: deja claro de dónde sale el valor (nunca pasa por dato oficial).
+const intensityLabel =
+  data.intensityBasis === 'estimada'
+    ? 'Estimada'
+    : data.intensityBasis === 'resenas'
+      ? concentration
+        ? `${concentration} · según reseñas`
+        : 'Según reseñas'
+      : concentration;
+// `image` explícito en el JSON > foto con nombre <codigo>.<ext> en src/assets/perfumes
+const image = data.image ?? findPerfumeImage(code);
+
+// Frasco de relleno por género mientras no haya foto (`bg` pinta el panel de la card).
+const fallbackBottles = {
+  Hombre: { bg: '#DDEBF5', color: '#3F5E8C', width: 48, height: 52, radius: '5px' },
+  Mujer: { bg: '#FFD6E3', color: '#E2457A', width: 42, height: 58, radius: '21px 21px 8px 8px' },
+  Unisex: { bg: '#F8E6C8', color: '#D9963F', width: 44, height: 56, radius: '8px' },
+} as const;
+
+const placeholder = bottle ?? fallbackBottles[gender];
+
+const noteItems = [
+  { label: 'Salida', value: notes?.top },
+  { label: 'Corazón', value: notes?.heart },
+  { label: 'Fondo', value: notes?.base },
+].filter((note) => note.value);
+---
+
+<article
+  data-item
+  data-code={code}
+  data-name={name}
+  data-item-gender={gender}
+  class="flex overflow-hidden rounded-[22px] border-2 border-ink bg-white shadow-hard-md"
+>
+  <div
+    class="relative flex min-h-[240px] w-[40%] max-w-[220px] shrink-0 items-end justify-center border-r-2 border-ink pb-6"
+    style={`background:${image ? '#ffffff' : placeholder.bg}`}
+  >
+    {image ? (
+      <Image
+        src={image}
+        alt={`Frasco del perfume ${name}`}
+        width={220}
+        height={220}
+        densities={[1, 2]}
+        loading="lazy"
+        class="absolute inset-0 size-full object-contain p-2 pt-12"
+      />
+    ) : (
+      <BottlePlaceholder
+        color={placeholder.color}
+        width={placeholder.width}
+        height={placeholder.height}
+        radius={placeholder.radius}
+      />
+    )}
+    <span class="absolute top-2.5 left-2.5 z-10 flex items-baseline gap-1 rounded-xl border-2 border-ink bg-accent px-3 py-1 text-white">
+      <span class="text-xs font-bold">N.º</span>
+      <span class="text-[28px] leading-[1.1] font-bold tracking-[-0.03em]">{code}</span>
+    </span>
+  </div>
+
+  <div class="flex min-w-0 flex-1 flex-col gap-3 px-5 pt-[18px] pb-4">
+    <div>
+      <h3 class="mb-1.5 font-serif text-[26px] leading-[1.12] font-semibold">{name}</h3>
+      <div class="flex flex-wrap gap-1.5">
+        {family && (
+          <span class="rounded-full border-[1.5px] border-ink bg-blush px-2.5 py-0.5 text-[13px] font-medium">
+            {family}
+          </span>
+        )}
+        <span class="rounded-full border-[1.5px] border-ink px-2.5 py-0.5 text-[13px] font-medium">
+          {gender}
+        </span>
+      </div>
+    </div>
+
+    {noteItems.length > 0 && (
+      <dl class="m-0 grid grid-cols-[74px_minmax(0,1fr)] gap-x-2.5 gap-y-1 text-sm">
+        {noteItems.map((note) => (
+          <>
+            <dt class="text-xs leading-[1.7] font-bold tracking-[0.06em] text-subtle uppercase">
+              {note.label}
+            </dt>
+            <dd class="m-0">{note.value}</dd>
+          </>
+        ))}
+      </dl>
+    )}
+
+    {noteItems.length === 0 && data.description && (
+      <div>
+        <p class="mb-0.5 text-xs font-bold tracking-[0.06em] text-subtle uppercase">
+          Características
+        </p>
+        <p class="m-0 text-sm">{data.description}</p>
+      </div>
+    )}
+
+    {intensity && (
+      <div class="mt-auto flex flex-wrap items-center justify-between gap-x-2.5 gap-y-1.5 border-t-[1.5px] border-dashed border-blush-deep pt-2.5">
+        <div>
+          <p class="m-0 text-xs font-bold tracking-[0.06em] text-subtle uppercase">Intensidad</p>
+          {intensityLabel && <p class="m-0 text-xs text-subtle">{intensityLabel}</p>}
+        </div>
+        <IntensityMeter level={intensity} />
+      </div>
+    )}
+  </div>
+</article>

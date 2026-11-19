@@ -93,6 +93,18 @@ Flujo recomendado con fotos propias del celular:
 
 > Las fotos de marcas comerciales tienen derechos de imagen. Usa fotos propias o con permiso (por ejemplo, el material gráfico que da tu distribuidor). Las imágenes con licencia libre (Wikimedia Commons) casi no existen para estos productos: en una prueba con 9 perfumes conocidos solo apareció una.
 
+## Dos perfumerías, un solo código
+
+El catálogo es el mismo para **Diamantes Perfumería** y **Bad Boy Perfumería**. La marca se elige al compilar con la variable `BRAND` (`diamantes` por defecto, o `badboy`). Cambia el nombre, el logo (`src/assets/logo-*.{jpg,png}`), el favicon, los colores (`:root[data-brand]` en `global.css`) y los datos de contacto (`src/config/site.ts`, objeto `brands`).
+
+```sh
+npm run dev           # Diamantes
+npm run dev:badboy    # Bad Boy
+npm run build:badboy  # compila Bad Boy a dist/
+```
+
+Para añadir una marca: agrega su id en `BRAND_IDS`, su configuración en `brands`, su logo en `Logo.astro` y, si cambia la paleta, sus tokens en `global.css`.
+
 ## Despliegue gratuito
 
 Es un sitio 100 % estático (`dist/`).
@@ -102,7 +114,8 @@ Es un sitio 100 % estático (`dist/`).
 1. Sube el repo a GitHub.
 2. Cloudflare Dashboard → **Workers & Pages** → **Create** → **Pages** → conecta el repo.
 3. Build command: `npm run build` · Output directory: `dist`.
-4. Variables de entorno: `SITE_URL` = tu URL final (ej. `https://tu-dominio.com`) y `NODE_VERSION` = `22`.
+4. Variables de entorno: `SITE_URL` = tu URL final (ej. `https://tu-dominio.com`), `NODE_VERSION` = `22` y `BRAND` (`diamantes` o `badboy`).
+5. Para las dos perfumerías crea **dos proyectos de Pages sobre el mismo repo y la misma rama `main`**, cada uno con su `BRAND` y su `SITE_URL`. Cada push a `main` reconstruye ambos sitios.
 
 ### Vercel / Netlify
 

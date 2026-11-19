@@ -1,21 +1,26 @@
 ---
 import { Image } from 'astro:assets';
-import logo from '../assets/logo.jpg';
+import { site } from '../config/site';
+import diamantes from '../assets/logo-diamantes.jpg';
+import badboy from '../assets/logo-badboy.png';
 
 interface Props {
-  /** Alto en px; el ancho se calcula con la proporción 2:1 del logo. */
+  /** Alto en px; el ancho sale de la proporción de cada logo. */
   height: number;
   eager?: boolean;
   class?: string;
 }
+
+const logos = { diamantes, badboy };
+const logo = logos[site.id];
 
 const { height, eager = false, class: className } = Astro.props;
 ---
 
 <Image
   src={logo}
-  alt="Diamantes Perfumería"
-  width={height * 2}
+  alt={site.name}
+  width={Math.round((height * logo.width) / logo.height)}
   height={height}
   densities={[1, 2]}
   loading={eager ? 'eager' : 'lazy'}

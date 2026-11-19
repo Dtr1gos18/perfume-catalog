@@ -27,6 +27,14 @@
   --shadow-hard-lg: 8px 8px 0 var(--color-ink);
 }
 
+/* Bad Boy: rojo y dorado del logo. Sobrescribe los tokens de color de la marca por defecto. */
+:root[data-brand='badboy'] {
+  --color-accent: #d50000;
+  --color-gold: #b8893a;
+  --color-blush: #fdeaea;
+  --color-blush-deep: #f3cccc;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;

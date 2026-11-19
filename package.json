@@ -8,7 +8,9 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "dev:badboy": "cross-env BRAND=badboy astro dev",
     "build": "vitest run && astro check && astro build",
+    "build:badboy": "cross-env BRAND=badboy npm run build",
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check",
@@ -32,6 +34,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
     "@eslint/js": "^10.0.1",
+    "cross-env": "^10.1.0",
     "eslint": "^10.15.0",
     "eslint-plugin-astro": "^1.7.0",
     "prettier": "^3.10.1",

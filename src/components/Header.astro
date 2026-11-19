@@ -1,5 +1,6 @@
 ---
 import Logo from './Logo.astro';
+import { site } from '../config/site';
 
 const links = [
   { href: '#catalogo', label: 'Catálogo' },
@@ -12,7 +13,7 @@ const links = [
     aria-label="Principal"
     class="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-4 px-5 py-3.5 sm:px-8"
   >
-    <a href="#catalogo" class="block" aria-label="Diamantes Perfumería, ir al catálogo">
+    <a href="#catalogo" class="block" aria-label={`${site.name}, ir al catálogo`}>
       <Logo height={84} eager />
     </a>
     <ul class="flex flex-wrap gap-7 font-medium">

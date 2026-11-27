@@ -2858,5 +2858,370 @@
     },
     "concentration": "EDP",
     "sources": ["https://scentverdict.com/perfume/lattafa-emeer-eau-de-parfum"]
+  },
+  {
+    "id": "927",
+    "name": "Berry Explosion – Tubbees",
+    "gender": "Mujer",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Fresa, frambuesa, grosella negra, lichi, pomelo",
+      "heart": "Sirope de arándano, rosa, violeta",
+      "base": "Vainilla, almizcle, algodón de azúcar, sándalo"
+    },
+    "sources": [
+      "https://www.bjutip.com/tubbees-berry-explosion-edp-u-50-ml",
+      "https://filledwithbarakah.com/products/berry-explosion-eau-de-parfum-50ml-by-grandeur-al-wataniah",
+      "https://www.fragrancenet.com/fragrances/grandeur/tubbees-berry-explosion/eau-de-parfum"
+    ]
+  },
+  {
+    "id": "928",
+    "name": "Atheeri – Lattafa",
+    "gender": "Mujer",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Flor de la pasión, gota de rocío",
+      "heart": "Orquídea, jazmín",
+      "base": "Vainilla, amberwood"
+    },
+    "sources": [
+      "https://www.scento.com/perfumes/atheeri-lattafa",
+      "https://www.notino.co.uk/lattafa/atheeri-eau-de-parfum-for-women/",
+      "https://www.nahdionline.com/en-sa/lattafa-atheeri-eau-de-parfum-unisex-100-ml/pdp/103945859"
+    ]
+  },
+  {
+    "id": "929",
+    "name": "Odyssey Li'chi Lush – Armaf",
+    "gender": "Mujer",
+    "family": "Frutal",
+    "notes": {
+      "top": "Lichi, mandarina, melocotón, frambuesa",
+      "heart": "Peonía, flor de azahar, magnolia, jazmín, rosa, ylang-ylang",
+      "base": "Sándalo, almizcle, ámbar, vainilla, caramelo"
+    },
+    "concentration": "EDP",
+    "sources": [
+      "https://www.notino.co.uk/armaf/odyssey-lichi-lush-eau-de-parfum-unisex/",
+      "https://www.superdrug.com/fragrance/perfume-for-women/womens-perfume/armaf-odyssey-lichi-lush-eau-de-parfum-100ml/p/mp-00507487"
+    ]
+  },
+  {
+    "id": "930",
+    "name": "Vulcan Baie – French Avenue",
+    "gender": "Mujer",
+    "family": "Frutal",
+    "notes": {
+      "top": "Grosella negra, zarzamora, bergamota, romero",
+      "heart": "Frambuesa, vodka, albahaca, lirio de los valles",
+      "base": "Fresa, durazno, sándalo, incienso, ámbar, pachulí, almizcle"
+    },
+    "concentration": "EDP",
+    "sources": [
+      "https://www.notino.co.uk/french-avenue/vulcan-baie-eau-de-parfum-unisex/",
+      "https://www.justmylook.com/products/french-avenue-vulcan-baie-eau-de-parfum-100ml"
+    ]
+  },
+  {
+    "id": "931",
+    "name": "Toy 2 Yummy – Moschino",
+    "gender": "Mujer",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Mandarina, bergamota",
+      "heart": "Geranio, jazmín sambac, pimienta",
+      "base": "Almizcle, rosa búlgara, vetiver de Haití"
+    },
+    "sources": [
+      "https://www.theperfumeshop.com/moschino/toy-2-yummy/eau-de-parfum-spray/p/83430EDPJU"
+    ]
+  },
+  {
+    "id": "932",
+    "name": "Bharara Elegance – Bharara",
+    "gender": "Mujer",
+    "family": "Floral",
+    "notes": {
+      "top": "Durazno, grosella negra, caléndula",
+      "heart": "Flores blancas, muguete, caramelo, vainilla, jazmín",
+      "base": "Musgo de roble, almizcle, ámbar gris, sándalo, vetiver"
+    },
+    "concentration": "EDP",
+    "sources": [
+      "https://www.intenseoud.com/products/elegance-eau-de-parfum-spray-100ml-3-4-oz-by-bharara"
+    ]
+  },
+  {
+    "id": "933",
+    "name": "Dalal – Lattafa",
+    "gender": "Mujer",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Mandarina, manzana",
+      "heart": "Ylang-ylang, jazmín, flor de azahar",
+      "base": "Vainilla, almizcle, musgo de roble"
+    },
+    "sources": [
+      "https://www.bjutip.com/lattafa/lattafa-dalal-edp-u-100-ml?page=2",
+      "https://www.justmylook.com/products/lattafa-dalal-eau-de-parfum-100ml",
+      "https://www.ferwer.com/product/15272"
+    ]
+  },
+  {
+    "id": "934",
+    "name": "Daisy Pink Pop – Marc Jacobs",
+    "gender": "Mujer",
+    "concentration": "EDT",
+    "notes": {
+      "top": "Yuzu, pomelo, hojas de violeta",
+      "base": "Pamplewood, almizcle, vainilla"
+    },
+    "sources": [
+      "https://www.notino.co.uk/marc-jacobs/daisy-pop-eau-de-toilette-for-women/",
+      "https://sephora.com/ca/en/product/marc-jacobs-fragrances-daisy-pop-eau-de-toilette-P509839"
+    ]
+  },
+  {
+    "id": "935",
+    "name": "Good Girl Jasmine Absolute – Carolina Herrera",
+    "gender": "Mujer",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Mandarina, acorde de grosella negra",
+      "heart": "Jazmín, almendra amarga",
+      "base": "Acorde de toffee, haba tonka tostada"
+    },
+    "sources": [
+      "https://www.carolinaherrera.com/us/en/p-fragrance/goodgirl-jasmine-absolute",
+      "https://www.parfumo.com/Perfumes/Carolina_Herrera/good-girl-jasmine-absolute",
+      "https://www.lookfantastic.com/p/carolina-herrera-good-girl-jasmine-absolute-eau-de-parfum-absolute-80-ml/17623728/?rctxt=fbt"
+    ]
+  },
+  {
+    "id": "936",
+    "name": "Dunescape – Armaf",
+    "gender": "Mujer",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Limón, mandarina, bergamota, naranja sanguina, aceite de jengibre, enebro, salvia",
+      "heart": "Cashmeran, acorde ozónico, geranio, rosa, manzana",
+      "base": "Ámbar seco, almizcle, sándalo"
+    },
+    "sources": [
+      "https://armaf.com/products/dunescape-1",
+      "https://www.notino.fr/armaf/dunescape-eau-de-parfum-mixte/",
+      "https://www.intenseoud.com/products/dunescape-eau-de-parfum-spray-100ml-3-4-oz-by-armaf"
+    ]
+  },
+  {
+    "id": "937",
+    "name": "Eden Plush Pear – Kayali",
+    "gender": "Mujer",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Pera, mandarina, bergamota",
+      "heart": "Flor de azahar, fresia, gardenia, lirio de los valles, agua de coco",
+      "base": "Sándalo, maderas cashmere, caviar de vainilla"
+    },
+    "sources": [
+      "https://www.sephora.co.uk/p/kayali-eden-plush-pear-eau-de-parfum",
+      "https://www.kohls.com/product/prd-8099041/kayali-eden-plush-pear-23-eau-de-parfum.jsp",
+      "https://www.harrods.com/en-gb/p/kayali-eden-plush-pear-or-23-eau-de-parfum-10ml-000000000007945395"
+    ]
+  },
+  {
+    "id": "938",
+    "name": "Dubai Delicacy Cotton Candy – Armaf",
+    "gender": "Mujer",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Frambuesa, pimienta rosa, cacao",
+      "heart": "Jazmín, rosa",
+      "base": "Vainilla, resinoide de benjuí, cedro"
+    },
+    "sources": [
+      "https://armaf.com/products/cotton-candy",
+      "https://app.virginmegastore.ae/beauty/skin-body/perfumes-body-sprays/armaf-delights-dubai-delicacy-cotton-candy-edp-unisex-perfume-100ml/p/1133130",
+      "https://www.scento.com/perfume-database/perfumes/armaf-delights-dubai-delicacy-cotton-candy"
+    ]
+  },
+  {
+    "id": "939",
+    "name": "DKNY Be Delicious",
+    "gender": "Mujer",
+    "notes": {
+      "top": "Manzana verde, pepino, pomelo, magnolia",
+      "heart": "Nardo, violeta, rosa, lirio de los valles, manzana",
+      "base": "Maderas, sándalo, ámbar"
+    },
+    "concentration": "EDP",
+    "sources": [
+      "https://www.lookfantastic.com/p/dkny-be-delicious-eau-de-parfum-100ml/10954663/",
+      "https://www.parfumo.com/Perfumes/DKNY/DKNY_Be_Delicious"
+    ]
+  },
+  {
+    "id": "448",
+    "name": "Nitro Red – Dumont",
+    "gender": "Hombre",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Manzana, lavanda, bergamota",
+      "heart": "Sandía, cedro, cálamo",
+      "base": "Ámbar, sándalo, pachulí"
+    },
+    "sources": [
+      "https://www.galaxus.ch/en/s6/product/dumont-paris-red-eau-de-parfum-100-ml-fragrances-47736060",
+      "https://www.parfumo.com/Perfumes/Dumont/Nitro_Red"
+    ]
+  },
+  {
+    "id": "449",
+    "name": "Odyssey Soda Pop – Armaf",
+    "gender": "Hombre",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Cola, cítricos, menta, jengibre, lavanda",
+      "heart": "Té negro, canela, nuez moscada, neroli",
+      "base": "Vainilla bourbon, haba tonka, amberwood, sándalo, pachulí, incienso, almizcle blanco, benjuí"
+    },
+    "sources": [
+      "https://www.parfumo.com/Perfumes/Armaf/odyssey-soda-pop",
+      "https://scentverdict.com/perfume/armaf-odyssey-soda-pop-eau-de-parfum",
+      "https://www.notino.co.uk/armaf/odyssey-soda-pop-eau-de-parfum-unisex/"
+    ]
+  },
+  {
+    "id": "450",
+    "name": "9PM Elixir – Afnan",
+    "gender": "Hombre",
+    "notes": {
+      "top": "Canela, cardamomo, notas frutales",
+      "heart": "Lavanda, notas especiadas y aromáticas",
+      "base": "Vainilla, ámbar, pachulí, maderas"
+    },
+    "concentration": "Intense"
+  },
+  {
+    "id": "451",
+    "name": "Coach for Men – Coach",
+    "gender": "Hombre",
+    "family": "Aromática",
+    "notes": {
+      "top": "Pera verde, bergamota, kumquat, lavanda",
+      "heart": "Cardamomo, cilantro, geranio",
+      "base": "Vetiver de Haití, gamuza, ámbar gris"
+    },
+    "concentration": "EDP"
+  },
+  {
+    "id": "452",
+    "name": "Khamrah Waha – Lattafa",
+    "gender": "Hombre",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Bergamota, yuzu, enebro",
+      "heart": "Jengibre, iris, salvia, sal marina",
+      "base": "Akigalawood, haba tonka, vainilla, almizcle, Ambrofix"
+    },
+    "sources": [
+      "https://www.scento.com/perfumes/khamrah-waha-lattafa.md",
+      "https://zaoud.it/products/lattafa-khamrah-waha-edp",
+      "https://emiratesoud.co.uk/products/khamrah-waha-perfume-lattafa"
+    ]
+  },
+  {
+    "id": "453",
+    "name": "212 Parfum – Carolina Herrera",
+    "gender": "Hombre",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Jengibre caramelizado, cardamomo",
+      "heart": "Lavanda especiada, hojas de violeta",
+      "base": "Maderas cuero, vainilla"
+    },
+    "sources": [
+      "https://www.carolinaherrera.com/es/en/p-fragrance/212-men-parfum",
+      "https://www.carolinaherrera.com/fr/en/p-fragrance/212-men-parfum"
+    ]
+  },
+  {
+    "id": "454",
+    "name": "Odyssey Eau de Montagne – Armaf",
+    "gender": "Hombre",
+    "concentration": "EDP",
+    "notes": {
+      "top": "Almendra, lactonas, especias",
+      "heart": "Flores blancas",
+      "base": "Vainilla"
+    },
+    "sources": [
+      "https://www.scento.com/perfume-database/perfumes/armaf-odyssey-eau-de-montagne",
+      "https://emiratesoud.co.uk/products/odyssey-eau-de-montagne-armaf",
+      "https://filledwithbarakah.com/products/odyssey-eau-de-montagne-mountain-edition-eau-de-parfum-100ml-by-armaf"
+    ]
+  },
+  {
+    "id": "455",
+    "name": "Beach Party – Armaf",
+    "gender": "Hombre",
+    "concentration": "EDP",
+    "sources": [
+      "https://www.scento.com/perfumes/beach-party-armaf",
+      "https://rackhams.com/armaf-beach-party-edp-100ml",
+      "https://scentverdict.com/perfume/armaf-beach-party-eau-de-parfum"
+    ],
+    "notes": {
+      "top": "Frutas tropicales, pomelo",
+      "heart": "Guayaba, agua de mar",
+      "base": "Almizcle, maderas"
+    }
+  },
+  {
+    "id": "456",
+    "name": "1 Million Elixir – Rabanne",
+    "gender": "Hombre",
+    "concentration": "Intense",
+    "notes": {
+      "top": "Manzana, davana",
+      "heart": "Rosa damascena, osmanthus",
+      "base": "Vainilla, haba tonka, pachulí"
+    },
+    "sources": [
+      "https://m.johnlewis.com/rabanne-1-million-elixir-parfum-intense/p6040035",
+      "https://www.parfumo.com/Perfumes/Rabanne/1-million-elixir"
+    ]
+  },
+  {
+    "id": "457",
+    "name": "Dynasty – Lattafa",
+    "gender": "Hombre",
+    "notes": {
+      "top": "Bergamota, jengibre, esclarea, frambuesa, nuez moscada",
+      "heart": "Té rooibos, gamuza",
+      "base": "Cedro, cachemira, Amberwood"
+    },
+    "concentration": "EDP",
+    "sources": [
+      "https://www.notino.co.uk/lattafa/dynasty-eau-de-parfum-unisex/p-16326212/",
+      "https://scentverdict.com/perfume/lattafa-dynasty-eau-de-parfum"
+    ]
+  },
+  {
+    "id": "458",
+    "name": "His Confession – Lattafa",
+    "gender": "Hombre",
+    "family": "Aromática",
+    "notes": {
+      "top": "Canela, lavanda",
+      "heart": "Iris, ciprés, benjuí",
+      "base": "Vainilla, haba tonka, ámbar, pachulí"
+    },
+    "concentration": "EDP",
+    "sources": [
+      "https://www.notino.co.uk/lattafa/his-confession-eau-de-parfum-for-men/",
+      "https://www.tjhughes.co.uk/products/lattafa-his-confession-eau-de-parfum-100ml"
+    ]
   }
 ]
